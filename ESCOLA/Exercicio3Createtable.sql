@@ -1,0 +1,8 @@
+CREATE TABLE tb_alunos(
+id BIGINT AUTO_INCREMENT,
+nome VARCHAR(255) NOT NULL,
+dataNascimento DATE,
+serie INT,
+nota DECIMAL(6,2) NOT NULL,
+PRIMARY KEY (id)
+);
