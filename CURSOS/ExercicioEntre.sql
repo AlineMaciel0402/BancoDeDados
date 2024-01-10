@@ -1,0 +1,1 @@
+SELECT nome, preco FROM tb_cursos WHERE preco >= 600.00 AND preco <= 1000.00;
